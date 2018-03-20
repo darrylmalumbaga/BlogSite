@@ -1,0 +1,21 @@
+@import "~normalize.css/normalize";
+
+// Variables
+@import "variables";
+
+@import "colors";
+// Bootstrap
+
+@import "layout/html";
+@import "layout/layout";
+@import "layout/sidebar";
+//components
+@import "components/post-excerpt";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+//pages
+@import "pages/posts-index";
